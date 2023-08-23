@@ -1,3 +1,4 @@
-void main(){
-  dynamic x = 10;
+main(){
+  int x = 10;
+  print(x);
 }
