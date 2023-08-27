@@ -1,10 +1,10 @@
 void main(){
-  int x = 9;
+  int x = 15;
   if(x%3==0 && x%5==0){
-    print("Divisible by both");
+    print("$x is Divisible by both 3 & 5");
   }else if(x%3==0){
-    print("Divisible by 3");
+    print("$x is Divisible by 3");
   }else{
-    print("Divisible by 5");
+    print("$x is not Divisible by 5");
   }
 }

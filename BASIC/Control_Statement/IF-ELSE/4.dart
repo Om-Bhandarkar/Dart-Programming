@@ -1,10 +1,8 @@
 void main(){
-  var x = 5;
+  dynamic x = -9;
   if(x>0){
-    print("5 is a positive number");
-  }
-  var y = -9;
-  if(y<0){
-    print("-9 is a negative number");
+    print("$x is a positive number");
+  }else{
+    print("$x is a negative number");
   }
 }
