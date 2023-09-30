@@ -1,10 +1,7 @@
-void playerInfo(String team,{required int jerNO,required String name}){
-  print(team);
-  print(jerNO);
-  print(name);
+void playerInfo({int? jerNO,String? name}){
+  print("Jersey No : $jerNO");
+  print("Name : $name");
 }
 void main(){
-  // playerInfo("India");
-  // playerInfo("India",jerNO:7);
-  playerInfo("India",jerNO:7,name: "Dhoni");
+  playerInfo(jerNO:7,name:"MSDhoni");
 }
