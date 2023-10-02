@@ -1,6 +1,7 @@
 class Demo{
   int x = 10;
   static int y = 20;
+  get getY => 30;
 }
 void main(){
   Demo obj = new Demo();
