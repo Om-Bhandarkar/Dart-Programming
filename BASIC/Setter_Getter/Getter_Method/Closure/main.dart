@@ -6,5 +6,6 @@ void main(){
   print(obj.getX);
   print(obj.getStr);
   print(obj.getSal);
+  print(obj.display);
   
 }

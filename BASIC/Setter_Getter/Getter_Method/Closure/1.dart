@@ -12,7 +12,7 @@ class Demo{
   get getSal => _sal;
 
   void display(){
-
+    
   }
-  
+
 }
