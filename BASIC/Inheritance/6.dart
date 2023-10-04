@@ -39,3 +39,10 @@ Child Constructor
 20
 20
 */
+
+/*
+Note : 
+      You will see that the hashcodes of parent and child 
+      are the same . Because child class points to the same 
+      object of parent class. 
+*/

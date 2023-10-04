@@ -1,23 +1,23 @@
 class Parent{
   int x = 10;
   Parent(){
-    print("Parent Constructor");
+    print("In Parent Constructor");
   }
-  void display(){
-
+  void parentData(){
     print(x);
   }
 }
 class Child extends Parent{
   int x = 20;
   Child(){
-    print("Child Constructor");
+    print("In Child Constructor");
   }
-  void display(){
+  void childData(){
+    print(super.x);
     print(x);
   }
 }
 void main(){
   Child obj = new Child();
-  
+  obj.childData();
 }
