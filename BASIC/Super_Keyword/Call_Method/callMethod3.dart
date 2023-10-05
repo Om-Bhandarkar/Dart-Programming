@@ -1,14 +1,18 @@
 class Parent{
   Parent(){
     print("In Parent Constructor");
+    this();
+  }
+  call(){
+    print("In Call Method");
   }
 }
 class Child extends Parent{
   Child(){
     print("In Child Constructor");
   }
-} 
+}
 void main(){
-  Parent obj1 = new Parent();
-  Child obj = new Child();
+   Child obj =  new Child();
+   obj();
 }
