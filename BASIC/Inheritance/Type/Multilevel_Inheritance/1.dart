@@ -14,5 +14,5 @@ class IPL extends BCCI{
   }
 }
 void main(){
-  IPL onj = new IPL();
+  IPL obj = new IPL();
 }
