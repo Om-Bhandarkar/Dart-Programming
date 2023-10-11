@@ -3,7 +3,6 @@ class Parent {
     print("Gold , Farm , Flats , Cars");
   }
   void career();
-
   void marry();
 
 }
