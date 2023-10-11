@@ -1,4 +1,4 @@
-class Parent {
+abstract class Parent {
   void property() {
     print("Gold , Farm , Flats , Cars");
   }
