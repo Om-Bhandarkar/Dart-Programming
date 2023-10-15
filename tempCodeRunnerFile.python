@@ -1,0 +1,4 @@
+a = None
+b = None
+result =  a **b
+print(result)
