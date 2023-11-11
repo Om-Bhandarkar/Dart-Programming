@@ -1,10 +1,9 @@
+import 'dart:io';
 void main() {
-  int x = 10;
-
-  do {
-    if (x % 4 == 0 && x % 5 == 0) {
-      print(x);
+  for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 3; j++) {
+      stdout.write('${j} ');
     }
-    x++;
-  } while (x <= 50);
+  }
+  print("");
 }
