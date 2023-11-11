@@ -1,8 +1,9 @@
 void main(){
-  var x = "a";
-  if(x=="A" || x=="E" ||x=="I" ||x=="O" ||x=="U"||x=="a" || x=="e" ||x=="i" ||x=="o" ||x=="u"){
-    print("$x is a vowel");
-  }else{
-    print("$x is a consonant");
-  }
+  var x  = 10;
+  var y = 37;
+  if(x%2==0)
+    print("10 is even number");
+  if(y%2!=0)
+    print("37 is odd number");
+    
 }

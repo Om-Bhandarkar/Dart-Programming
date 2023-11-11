@@ -1,8 +1,11 @@
 void main(){
-  int age = 18;
-  if(age>=18){
-    print("You can cast a vote");
-  }else{
-    print("You can't cast a vote");
+  int x = 5;
+  int y = 7;
+  if((++x > --y) && (x++ > ++y)){
+    print("same");
+  } else{
+    print("Different");
   }
+  print(x);
+  print(y);
 }

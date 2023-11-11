@@ -1,8 +1,13 @@
+// if-else ladder 
 void main(){
-  dynamic x = -9;
-  if(x>0){
-    print("$x is a positive number");
+  int marks = 80;
+  if(marks >= 95){
+    print("IIT");
+  }else if(marks >= 85){
+    print("MBBS");
+  }else if(marks >= 60){
+    print("Engineering");
   }else{
-    print("$x is a negative number");
+    print("Ghari");
   }
 }
