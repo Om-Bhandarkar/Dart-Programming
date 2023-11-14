@@ -1,7 +1,8 @@
-void playerInfo({int? jerNO,String? name}){
-  print("Jersey No : $jerNO");
-  print("Name : $name");
+void fun(){
+  print("In Fun");
 }
 void main(){
-  playerInfo(jerNO:7,name:"MSDhoni");
+  print("--> Start Main");
+  fun();
+  print("--> End Main");
 }

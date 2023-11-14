@@ -1,11 +1,12 @@
-import 'dart:html';
-
-void companyInfo(String company,{int? empId,String? empName,double? rev}){
-  print("Company : $company");
-  print("Employee ID : $empId");
-  print("Employee Name : $empName");
-  print("Revenue : $rev");
+void fun(String name,double num){
+  print("Start FUN");
+  print(name);
+  print(num);
+  print("End FUN");
 }
+
 void main(){
-  companyInfo("Cisco",empId:1206,empName:"Om Bhandarkar",rev:8.9);
+  print("Start Main");
+  fun('Om',20.50);
+  print("End Main");
 }
