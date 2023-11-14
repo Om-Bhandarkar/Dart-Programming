@@ -10,3 +10,14 @@ void main(){
   fun('Om',20.50);
   print("End Main");
 }
+
+
+/*
+O/p :
+      Start Main
+      Start FUN
+      Om       
+      20.5     
+      End FUN  
+      End Main
+*/
